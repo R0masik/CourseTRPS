@@ -29,13 +29,17 @@ SOURCES += main.cpp\
     helpdialog.cpp \
     modeldialog.cpp \
     glwidget.cpp \
-    corpuscle.cpp
+    corpuscle.cpp \
+    algorithm.cpp \
+    field.cpp
 
 HEADERS  += mainwindow.h \
     helpdialog.h \
     modeldialog.h \
     glwidget.h \
-    corpuscle.h
+    corpuscle.h \
+    algorithm.h \
+    field.h
 
 FORMS    += mainwindow.ui \
     helpdialog.ui \

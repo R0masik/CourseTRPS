@@ -9,6 +9,10 @@ class MainWindow : public QMainWindow, private Ui::MainWindow
 {
     Q_OBJECT
 
+private:
+    HelpDialog *help;
+    ModelDialog *model;
+
 public:
     explicit MainWindow(QWidget *parent = 0);
 

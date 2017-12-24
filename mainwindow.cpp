@@ -13,12 +13,12 @@ void MainWindow::on_exitButton_clicked()
 
 void MainWindow::on_helpButton_clicked()
 {
-    HelpDialog *help = new HelpDialog(this);
+    help = new HelpDialog(this);
     help->show();
 }
 
 void MainWindow::on_startButton_clicked()
 {
-    ModelDialog *model = new ModelDialog(this);
+    model = new ModelDialog(this);
     model->show();
 }
